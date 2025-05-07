@@ -62,3 +62,22 @@ int main() {
     printf("\n");
     return 0;
 }
+==OUTPUT==
+Enter number of processes: 2
+Enter number of resources: 3
+Enter Allocation Matrix:
+0 1 0
+2 0 0
+Enter Maximum Matrix:
+7 5 3
+3 2 2
+Enter Available Resources:
+3 3 2
+
+System is NOT in a safe state (Deadlock possible)
+
+Process returned 0 (0x0)   execution time : 28.155 s
+Press any key to continue.
+
+
+
